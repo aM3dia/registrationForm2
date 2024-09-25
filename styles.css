@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+    width: 100%;
+    max-width: 400px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.terms {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+button {
+    margin: 5px;
+    align-items: center;
+    scale: 1.5;
+}
+
+footer {
+    padding: 20px;
+    font-size: 10px;
+}
